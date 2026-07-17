@@ -321,14 +321,15 @@ textarea.input { min-height: 120px; resize: vertical; }
   .nav .btn { padding: 10px 16px; font-size: var(--fs-xs); }
   .btn-lg { padding: 14px 22px; font-size: var(--fs-sm); }
   .hero { padding-top: var(--s-8); }
+  .hero-h1 { margin-left: 0 !important; }
+  .hero-content { padding-inline: var(--s-1); }
   .hero-content .btn { width: 100%; }
-  .scene .glass { display: none !important; }
+  .fab-stack { right: var(--s-4); bottom: var(--s-4); gap: var(--s-4); }
   .scene .drone-fly { width: 120px !important; right: 8% !important; top: 14% !important; }
   .stack-card { position: static; }
   .stack-card .stack-inner { animation: none; padding: var(--s-5) !important; min-height: 0 !important; }
   .timeline { padding-left: var(--s-6); }
   .tl-step::before { left: calc(-1 * var(--s-6) + 3px); }
-  .fab-stack { right: var(--s-3); bottom: var(--s-3); }
   .fab-quote { padding: 12px 18px; font-size: var(--fs-xs); }
   .marquee-track figure { width: 300px !important; }
   .acc summary { font-size: 16px; gap: var(--s-3); }

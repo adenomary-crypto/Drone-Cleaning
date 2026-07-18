@@ -331,6 +331,8 @@ textarea.input { min-height: 120px; resize: vertical; }
   .timeline { padding-left: var(--s-6); }
   .tl-step::before { left: calc(-1 * var(--s-6) + 3px); }
   .fab-quote { padding: 12px 18px; font-size: var(--fs-xs); }
+  .fab-call { width: 43px; height: 43px; margin-right: 5px; }
+  .fab-call svg { width: 17px; height: 17px; }
   .marquee-track figure { width: 300px !important; }
   .acc summary { font-size: 16px; gap: var(--s-3); }
   .section .wrap[style*="text-align:center"] .btn { width: 100%; }
